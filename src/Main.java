@@ -92,13 +92,14 @@ public class Main {
 //        }
 
 
-//        int j = 0;
-//        int h = 15000;
-//        while (j <= 2459000) {
-//            j += h ;
-//        System.out.println(j);
+        int j = 0;
+        int m = 0;
+        int h = 15000;
+        while (j < 2459000) {
+            j += h; m++; }
+        System.out.println("Месяц " + m + " , сумма накоплений равно " + j + " рублей");
 
-//        }
+
 
 
     }
